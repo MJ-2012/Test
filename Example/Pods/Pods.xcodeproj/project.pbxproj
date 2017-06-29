@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D0F552939EA016A9980D7010ADDF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2276A5E142BB9C38C3B5D8CDD9FFE5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7279C2AED1B4FFCF35C8C54EEE811EBB /* Pods-PundiPrintei_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6CF8905A169D0200ED41ABB597B221 /* Pods-PundiPrintei_Example-dummy.m */; };
+		9851B82DA66C79DD1CD170CA5BBCCFAF /* PundiPrintei-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024C7F4F914B88AADAAB976B87964FF /* PundiPrintei-dummy.m */; };
+		A5D484EEA6F4363ADE6C4B07AD1EDEE0 /* PundiPrintei-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C7050A133D12B85382C1511C0AF42B /* PundiPrintei-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC9B1E82A57BF1375F5BFB0D42666178 /* Pods-PundiPrintei_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5E4B08BAAB1A997D0D6F05D9CCD078 /* Pods-PundiPrintei_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41EB521850381B4B33DDF0DBECB39B9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C81D4A3C3C15577D124BA9CAC39BDD73 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A391C83469CA4B5726713BA3060A10F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FF0C25EA06762E87BABBF87F058E563;
+			remoteInfo = PundiPrintei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1214EE898BB2FC0C77ECA384C5AF773A /* Pods-PundiPrintei_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PundiPrintei_Example-frameworks.sh"; sourceTree = "<group>"; };
+		122D9C5301ECE9886C34A4F0FFC6214B /* PundiPrintei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PundiPrintei.framework; path = PundiPrintei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		159E0393DFBBC41F3A0C9C4E6B414843 /* PundiPrintei.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PundiPrintei.xcconfig; sourceTree = "<group>"; };
+		19DE3F0F26737F5AF8D507DA0782770A /* Pods-PundiPrintei_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PundiPrintei_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2024C7F4F914B88AADAAB976B87964FF /* PundiPrintei-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PundiPrintei-dummy.m"; sourceTree = "<group>"; };
+		26EC5ED0065BE5E6B75150EC797825E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270DF48E760B14660FB8A607E273A040 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495400837E883EFFA08096AECAC64D41 /* Pods-PundiPrintei_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PundiPrintei_Example.modulemap"; sourceTree = "<group>"; };
+		5BB1CB35B27BECC9E0CECC361B107BF6 /* Pods_PundiPrintei_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PundiPrintei_Example.framework; path = "Pods-PundiPrintei_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F294ADCA7836C9DD48824EF2EE24630 /* Pods-PundiPrintei_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PundiPrintei_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE5E4B08BAAB1A997D0D6F05D9CCD078 /* Pods-PundiPrintei_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PundiPrintei_Example-umbrella.h"; sourceTree = "<group>"; };
+		B193FF2EC61AB85B34BC92C72967C41C /* Pods-PundiPrintei_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PundiPrintei_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1AFDE3C34666791AD5AAC416561E47B /* PundiPrintei.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PundiPrintei.modulemap; sourceTree = "<group>"; };
+		C81D4A3C3C15577D124BA9CAC39BDD73 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		CDD981C90C42744D7150FEF9D00166C9 /* Pods-PundiPrintei_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PundiPrintei_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD6CF8905A169D0200ED41ABB597B221 /* Pods-PundiPrintei_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PundiPrintei_Example-dummy.m"; sourceTree = "<group>"; };
+		E4871F2A0BE06B79C48F90991D3EC2E0 /* Pods-PundiPrintei_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PundiPrintei_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5C7050A133D12B85382C1511C0AF42B /* PundiPrintei-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PundiPrintei-umbrella.h"; sourceTree = "<group>"; };
+		ECB8D2DF54796F759F7843E36B130CD1 /* PundiPrintei-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PundiPrintei-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E0EED9A3C1A70F22C93AF157382B620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D0F552939EA016A9980D7010ADDF47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88B0E56AD1BE63AF06E9620C233CED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2276A5E142BB9C38C3B5D8CDD9FFE5D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A90333134B8BEF65DAABC08863B004 /* PundiPrintei */ = {
+			isa = PBXGroup;
+			children = (
+				773F15D71308C4F66EFA77BDDE7E1101 /* PundiPrintei */,
+				8423AE811A49231D920B033ADBA4E218 /* Support Files */,
+			);
+			name = PundiPrintei;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		773F15D71308C4F66EFA77BDDE7E1101 /* PundiPrintei */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C91B2CE02232BCBB418BFB788EC37 /* Classes */,
+			);
+			name = PundiPrintei;
+			path = PundiPrintei;
+			sourceTree = "<group>";
+		};
+		7CFE33C1585E54575A6BA3F02D25DF89 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59A90333134B8BEF65DAABC08863B004 /* PundiPrintei */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7CFE33C1585E54575A6BA3F02D25DF89 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DA0586982DF2448E39EB5DDE2C777D25 /* Products */,
+				BFAA5EF832FC4A905A2F39C7E57DFF16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8423AE811A49231D920B033ADBA4E218 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26EC5ED0065BE5E6B75150EC797825E8 /* Info.plist */,
+				B1AFDE3C34666791AD5AAC416561E47B /* PundiPrintei.modulemap */,
+				159E0393DFBBC41F3A0C9C4E6B414843 /* PundiPrintei.xcconfig */,
+				2024C7F4F914B88AADAAB976B87964FF /* PundiPrintei-dummy.m */,
+				ECB8D2DF54796F759F7843E36B130CD1 /* PundiPrintei-prefix.pch */,
+				E5C7050A133D12B85382C1511C0AF42B /* PundiPrintei-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PundiPrintei";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFAA5EF832FC4A905A2F39C7E57DFF16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC630A64940957515D6191DCB674B026 /* Pods-PundiPrintei_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA9C91B2CE02232BCBB418BFB788EC37 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C81D4A3C3C15577D124BA9CAC39BDD73 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA0586982DF2448E39EB5DDE2C777D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1CB35B27BECC9E0CECC361B107BF6 /* Pods_PundiPrintei_Example.framework */,
+				122D9C5301ECE9886C34A4F0FFC6214B /* PundiPrintei.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC630A64940957515D6191DCB674B026 /* Pods-PundiPrintei_Example */ = {
+			isa = PBXGroup;
+			children = (
+				270DF48E760B14660FB8A607E273A040 /* Info.plist */,
+				495400837E883EFFA08096AECAC64D41 /* Pods-PundiPrintei_Example.modulemap */,
+				E4871F2A0BE06B79C48F90991D3EC2E0 /* Pods-PundiPrintei_Example-acknowledgements.markdown */,
+				CDD981C90C42744D7150FEF9D00166C9 /* Pods-PundiPrintei_Example-acknowledgements.plist */,
+				DD6CF8905A169D0200ED41ABB597B221 /* Pods-PundiPrintei_Example-dummy.m */,
+				1214EE898BB2FC0C77ECA384C5AF773A /* Pods-PundiPrintei_Example-frameworks.sh */,
+				6F294ADCA7836C9DD48824EF2EE24630 /* Pods-PundiPrintei_Example-resources.sh */,
+				AE5E4B08BAAB1A997D0D6F05D9CCD078 /* Pods-PundiPrintei_Example-umbrella.h */,
+				19DE3F0F26737F5AF8D507DA0782770A /* Pods-PundiPrintei_Example.debug.xcconfig */,
+				B193FF2EC61AB85B34BC92C72967C41C /* Pods-PundiPrintei_Example.release.xcconfig */,
+			);
+			name = "Pods-PundiPrintei_Example";
+			path = "Target Support Files/Pods-PundiPrintei_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		552F0B7E257F0E87E33F48669CB7F045 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D484EEA6F4363ADE6C4B07AD1EDEE0 /* PundiPrintei-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A8906F1048810E512821BD5A16D460 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9B1E82A57BF1375F5BFB0D42666178 /* Pods-PundiPrintei_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FF0C25EA06762E87BABBF87F058E563 /* PundiPrintei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030D332C39AA5FF1EE60926BC7ABF89E /* Build configuration list for PBXNativeTarget "PundiPrintei" */;
+			buildPhases = (
+				0D953D3CC9F13F1B0CDAA27CDCCBABEA /* Sources */,
+				6E0EED9A3C1A70F22C93AF157382B620 /* Frameworks */,
+				552F0B7E257F0E87E33F48669CB7F045 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PundiPrintei;
+			productName = PundiPrintei;
+			productReference = 122D9C5301ECE9886C34A4F0FFC6214B /* PundiPrintei.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43380C73EF97116BF87BF183A95182F2 /* Pods-PundiPrintei_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5CBA01021892CED04E49BDC4116692 /* Build configuration list for PBXNativeTarget "Pods-PundiPrintei_Example" */;
+			buildPhases = (
+				DFCD384453769A9B58026DB69E8F84D1 /* Sources */,
+				F88B0E56AD1BE63AF06E9620C233CED5 /* Frameworks */,
+				72A8906F1048810E512821BD5A16D460 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9912AFFD346FDD52E0EE6512AE7C448B /* PBXTargetDependency */,
+			);
+			name = "Pods-PundiPrintei_Example";
+			productName = "Pods-PundiPrintei_Example";
+			productReference = 5BB1CB35B27BECC9E0CECC361B107BF6 /* Pods_PundiPrintei_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DA0586982DF2448E39EB5DDE2C777D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43380C73EF97116BF87BF183A95182F2 /* Pods-PundiPrintei_Example */,
+				0FF0C25EA06762E87BABBF87F058E563 /* PundiPrintei */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D953D3CC9F13F1B0CDAA27CDCCBABEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9851B82DA66C79DD1CD170CA5BBCCFAF /* PundiPrintei-dummy.m in Sources */,
+				F41EB521850381B4B33DDF0DBECB39B9 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD384453769A9B58026DB69E8F84D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7279C2AED1B4FFCF35C8C54EEE811EBB /* Pods-PundiPrintei_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9912AFFD346FDD52E0EE6512AE7C448B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PundiPrintei;
+			target = 0FF0C25EA06762E87BABBF87F058E563 /* PundiPrintei */;
+			targetProxy = A391C83469CA4B5726713BA3060A10F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17120703A127897AB853400279B98793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B193FF2EC61AB85B34BC92C72967C41C /* Pods-PundiPrintei_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PundiPrintei_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PundiPrintei_Example/Pods-PundiPrintei_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PundiPrintei_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75AC0A6D810973FA64ECA0DC426DEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159E0393DFBBC41F3A0C9C4E6B414843 /* PundiPrintei.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PundiPrintei/PundiPrintei-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PundiPrintei/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PundiPrintei/PundiPrintei.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PundiPrintei;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAD7BECB942201826A714261DF101FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159E0393DFBBC41F3A0C9C4E6B414843 /* PundiPrintei.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PundiPrintei/PundiPrintei-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PundiPrintei/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PundiPrintei/PundiPrintei.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PundiPrintei;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB0598112C33F793FD92486782DCC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DE3F0F26737F5AF8D507DA0782770A /* Pods-PundiPrintei_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PundiPrintei_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PundiPrintei_Example/Pods-PundiPrintei_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PundiPrintei_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030D332C39AA5FF1EE60926BC7ABF89E /* Build configuration list for PBXNativeTarget "PundiPrintei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD7BECB942201826A714261DF101FA0 /* Debug */,
+				75AC0A6D810973FA64ECA0DC426DEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5CBA01021892CED04E49BDC4116692 /* Build configuration list for PBXNativeTarget "Pods-PundiPrintei_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0598112C33F793FD92486782DCC45 /* Debug */,
+				17120703A127897AB853400279B98793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

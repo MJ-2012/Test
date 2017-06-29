@@ -1,0 +1,6 @@
+framework module PundiPrintei {
+  umbrella header "PundiPrintei-umbrella.h"
+
+  export *
+  module * { export * }
+}

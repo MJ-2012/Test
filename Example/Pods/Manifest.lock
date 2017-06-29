@@ -1,0 +1,16 @@
+PODS:
+  - PundiPrintei (0.1.0)
+
+DEPENDENCIES:
+  - PundiPrintei (from `../`)
+
+EXTERNAL SOURCES:
+  PundiPrintei:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PundiPrintei: 7cd9f802fef09ba12c13f3c8f61a5e307f79cf96
+
+PODFILE CHECKSUM: 1b8623c239bb7731dc5bdfa2c5d37ef7f3149ae3
+
+COCOAPODS: 1.2.1
